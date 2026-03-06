@@ -76,7 +76,7 @@ throughput = network_view["throughput_pct"].mean()
 st.title("Supply Chain Digital Enablement Demo")
 st.caption(
     "A portfolio-ready product demo for planning intelligence, network visibility, and execution orchestration. "
-    "Built for interview storytelling and live website demos."
+    "Built for hiring manager review and live stakeholder demos."
 )
 
 c1, c2, c3, c4, c5 = st.columns(5)
@@ -169,8 +169,8 @@ with tab2:
     worst_gap = sku_summary.iloc[0]
     st.info(
         f"Under **{selected_scenario}**, the most constrained family is **{worst_gap['sku_family']}** with a projected gap of "
-        f"**{worst_gap['gap']:,.0f} units**. A strong PM narrative here is sequencing supply reallocation, alternate sourcing, "
-        "or service-level tradeoff decisions by business criticality."
+        f"**{worst_gap['gap']:,.0f} units**. Recommended actions include sequencing supply reallocation, activating alternate "
+        "sourcing, and prioritizing service-level tradeoff decisions by business criticality."
     )
 
     st.dataframe(
@@ -180,10 +180,10 @@ with tab2:
         hide_index=True,
     )
 
-with tab2.expander("How to narrate this in an interview"):
+with tab2.expander("Decision Narrative"):
     st.markdown(
         """
-        Position this as a product domain that helps leaders answer:
+        This planning domain helps leaders answer:
         - Where are we constrained?
         - Which decisions improve service fastest?
         - What happens if demand spikes or supply is disrupted?
@@ -246,15 +246,15 @@ with tab4:
     )
 
     st.success(
-        "This tab is where you demonstrate product maturity: insights do not stop at dashboards. "
+        "This tab reflects product maturity: insights do not stop at dashboards. "
         "They become owned actions with recommended next steps, accountable teams, and closed-loop follow-through."
     )
 
 st.divider()
-with st.expander("How to talk about the platform architecture"):
+with st.expander("Platform Architecture Summary"):
     st.markdown(
         """
-        **Suggested architecture story**
+        **Architecture overview**
 
         - ERP and manufacturing systems feed planning, inventory, order, and execution signals
         - A unified data layer standardizes events and metrics across suppliers, plants, DCs, and delivery lanes
