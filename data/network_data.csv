@@ -1,0 +1,10 @@
+site,region,node_type,inventory_days,throughput_pct,base_risk_score,top_issue
+Atlanta DC,East,DC,12.5,94,42,Carrier variability
+Jacksonville Plant,East,Plant,10.2,91,48,Line changeover delays
+Orlando Supplier,East,Supplier,8.4,88,53,Component shortage
+Dallas DC,Central,DC,13.1,95,39,Dock congestion
+Houston Plant,Central,Plant,11.0,89,46,Maintenance backlog
+Monterrey Co-man,Central,Co-man,9.2,87,56,Packaging constraint
+Los Angeles DC,West,DC,10.5,93,51,Port-to-DC variability
+Phoenix Plant,West,Plant,9.7,90,49,Labor coverage
+Fresno Supplier,West,Supplier,7.8,86,61,Raw material delay

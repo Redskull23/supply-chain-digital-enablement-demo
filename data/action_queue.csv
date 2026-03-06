@@ -1,0 +1,11 @@
+priority,region,alert_type,recommended_action,owner_team,due_days,status
+Critical,East,Inventory Risk,Reallocate safety stock for Sparkling,Planning,1,Open
+Critical,West,Shipment Delay,Escalate carrier and reroute lane,Logistics,1,Open
+High,Central,Supplier Constraint,Activate alternate packaging source,Procurement,2,Open
+High,East,Throughput Loss,Approve overtime for weekend run,Plant Ops,2,In Progress
+High,West,Forecast Spike,Review promo assumptions with sales,S&OP,3,Open
+Medium,Central,Quality Hold,Expedite inspection release,Quality,3,Open
+Medium,West,Inventory Imbalance,Rebalance DC replenishment,Planning,4,Open
+Medium,East,Changeover Delay,Bundle production schedule,Plant Ops,5,Open
+Low,Central,Reporting Gap,Validate OTIF metric mapping,Analytics,7,Open
+Low,East,Lane Variance,Monitor carrier trend for 2 weeks,Logistics,7,Open

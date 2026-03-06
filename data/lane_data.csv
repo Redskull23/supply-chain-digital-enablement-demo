@@ -1,0 +1,10 @@
+lane,on_time_pct,status,region
+Supplier to Atlanta DC,92.4,Watch,East
+Jacksonville Plant to Atlanta DC,95.8,Healthy,East
+Atlanta DC to Retail Southeast,93.1,Watch,East
+Supplier to Dallas DC,96.4,Healthy,Central
+Monterrey Co-man to Houston Plant,89.2,At Risk,Central
+Houston Plant to Dallas DC,94.6,Watch,Central
+Supplier to Los Angeles DC,87.9,At Risk,West
+Phoenix Plant to Los Angeles DC,93.8,Watch,West
+Los Angeles DC to Retail West,95.2,Healthy,West
