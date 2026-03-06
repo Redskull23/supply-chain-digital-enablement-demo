@@ -1,87 +1,196 @@
 # Supply Chain Digital Enablement Demo
 
-A Streamlit demo designed for portfolio use and interview storytelling. It showcases three executive-level product domains without using Blue Origin IP or internal naming:
+A conceptual **supply chain product platform demo** built with Streamlit.
 
-1. Planning Intelligence
-2. Network Visibility
-3. Execution Orchestration
+This demo illustrates how a modern enterprise platform can integrate **planning intelligence, operational visibility, and execution orchestration** into a single operational experience.
 
-## Why this demo works
+The project is designed for **portfolio and interview storytelling**, demonstrating how product leadership can structure digital supply chain capabilities across multiple operational domains.
 
-It lets you show that you can:
-- translate supply chain pain points into product domains
-- connect planning, operations, and logistics into one operating model
-- demonstrate product thinking instead of only dashboards
-- tell a Coca-Cola-relevant story across planning, manufacturing, and delivery visibility
+---
 
-## Run locally in VS Code with uv
+# What This Demo Shows
+
+This project demonstrates how an enterprise supply chain platform can support leaders across planning, operations, and execution.
+
+The platform includes three major product domains.
+
+## 1. Planning Intelligence
+
+Planning Intelligence focuses on **forecasting risk and scenario-based planning**.
+
+Capabilities demonstrated:
+
+* demand vs supply gap visibility
+* constrained capacity identification
+* scenario simulation
+* inventory health analysis
+* forecast risk monitoring
+
+These capabilities help organizations improve **decision quality before operational disruptions occur**.
+
+---
+
+## 2. Network Visibility
+
+Network Visibility provides transparency across the entire supply chain network.
+
+Capabilities demonstrated:
+
+* delayed shipments
+* supplier risk visibility
+* inventory coverage monitoring
+* plant throughput visibility
+* site-level operational exceptions
+
+This layer enables operational teams to **detect issues early and prioritize interventions**.
+
+---
+
+## 3. Execution Orchestration
+
+Execution Orchestration demonstrates how organizations move from insights to action.
+
+Capabilities demonstrated:
+
+* operational alert triage
+* recommended corrective actions
+* ownership tracking
+* cross-team collaboration
+* closed-loop issue resolution
+
+This domain focuses on **turning insights into operational outcomes**.
+
+---
+
+# Product Thinking Behind the Demo
+
+The demo illustrates several product design principles:
+
+* **End-to-end operating model** across planning, visibility, and execution
+* **Decision intelligence layered on operational data**
+* **Unified experience replacing fragmented supply chain tools**
+* **Operational metrics aligned with business outcomes**
+
+Example KPIs included in the executive dashboard:
+
+* Service Level / OTIF
+* Plant Throughput
+* Network Risk
+* Inventory Health
+
+---
+
+# Running the Demo Locally
+
+## Install dependencies
 
 ```bash
 uv sync
+```
+
+## Run the Streamlit app
+
+```bash
 uv run streamlit run app/app.py
 ```
 
-## Suggested demo narrative
+The application will launch locally in your browser.
 
-Open with this framing:
+---
 
-> "This is a conceptual supply chain digital enablement platform that shows how I think about end-to-end planning, operational visibility, and action orchestration across a large enterprise network."
+# Suggested Interview Walkthrough
 
-Then walk through:
+Use this narrative when presenting the demo.
 
-### 1) Executive Overview
-Show the KPI cards and explain the operating model:
-- service level / OTIF
-- plant throughput
-- network risk
-- inventory health
+### Step 1 — Executive Overview
 
-### 2) Planning Intelligence
-Explain how leaders need scenario-based planning, forecast risk visibility, and trade-off management.
-Emphasize:
-- demand vs supply gaps
-- constrained nodes
-- scenario simulation
-- decision quality
+Explain the operating model and KPIs.
 
-### 3) Network Visibility
-Explain real-time transparency across suppliers, plants, DCs, and delivery lanes.
-Emphasize:
-- delayed shipments
-- at-risk SKUs
-- inventory coverage
-- site-level exceptions
+Highlight:
 
-### 4) Execution Orchestration
-Explain guided actioning and work management.
-Emphasize:
-- alert triage
-- recommended actions
-- ownership
-- closed-loop execution
+* service level
+* throughput
+* risk exposure
+* inventory health
 
-## Good interview language
+Frame the system as **a unified operational command center**.
 
-Use phrases like:
-- product portfolio across planning, manufacturing, and visibility domains
-- measurable operational outcomes
-- sequencing investments across shared capabilities
-- cross-functional alignment across supply chain, engineering, data, finance, and customer operations
-- rationalizing fragmented tools into a cohesive operating experience
+---
 
-## Easy deploy options
+### Step 2 — Planning Intelligence
 
-### Streamlit Community Cloud
-- Push this repo to GitHub
-- Create a new Streamlit app
-- Point it to `app/app.py`
+Explain how supply chain leaders need:
 
-### Your website
-- Link to the hosted Streamlit app as a live demo
-- Add screenshots or a short screen recording beside the live link
+* scenario planning
+* demand risk monitoring
+* capacity visibility
+* trade-off decision support
 
-## Suggested website label
+Focus on **decision quality before disruptions occur**.
 
-**Supply Chain Digital Enablement Demo**  
-Interactive product concept showing planning intelligence, operational visibility, and execution orchestration across a complex enterprise network.
-# supply-chain-digital-enablement-demo
+---
+
+### Step 3 — Network Visibility
+
+Explain how operational teams monitor:
+
+* delayed shipments
+* plant disruptions
+* inventory shortages
+* supplier risks
+
+Focus on **situational awareness across the entire network**.
+
+---
+
+### Step 4 — Execution Orchestration
+
+Explain how the platform enables:
+
+* guided actions
+* issue ownership
+* operational coordination
+* closed-loop execution
+
+Focus on **moving from insight to action**.
+
+---
+
+# Deployment Options
+
+## Streamlit Community Cloud
+
+1. Push this repository to GitHub
+2. Create a new Streamlit app
+3. Set the entry point to:
+
+```
+app/app.py
+```
+
+## Portfolio Website
+
+This demo can also be embedded or linked within a portfolio site as a **live interactive demonstration**.
+
+---
+
+# Why This Project Exists
+
+This demo is designed to demonstrate **product thinking applied to enterprise supply chain systems**.
+
+It illustrates how product leaders can structure platforms that connect:
+
+* planning intelligence
+* operational monitoring
+* coordinated execution
+
+into a cohesive operational experience.
+
+---
+
+# Author
+
+Andrew Pepper
+AI Governance & Data Platform Product Leader
+
+GitHub: https://github.com/Redskull23
